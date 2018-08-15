@@ -36,8 +36,8 @@ namespace ConcessionariaAPI.Domain.Model
             AssertionConcern.AssertArgumentLength(this.Nome, 1, 200, "Nome Inválido");
             AssertionConcern.AssertArgumentNotNull(this.Nome, "Nome Inváldo");
 
-            AssertionConcern.AssertArgumentLength(this.PaisOrigem, 1, 200, "Nome Inválido");
-            AssertionConcern.AssertArgumentNotNull(this.PaisOrigem, "Nome Inváldo");
+            AssertionConcern.AssertArgumentLength(this.PaisOrigem, 1, 200, "Pais Inválido");
+            AssertionConcern.AssertArgumentNotNull(this.PaisOrigem, "País Inválido");
 
         }
 

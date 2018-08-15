@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConcessionariaAPI.Domain", 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConcessionariaAPI.Common", "ConcessionariaAPI.Common\ConcessionariaAPI.Common.csproj", "{2AE8DB66-4277-451B-84D2-8768A42506C8}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConcessionariaAPI.Infrastructure", "ConcessionariaAPI.Infrastructure\ConcessionariaAPI.Infrastructure.csproj", "{F5C948B4-275B-4BD0-B65D-C8DF394C2226}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{2AE8DB66-4277-451B-84D2-8768A42506C8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2AE8DB66-4277-451B-84D2-8768A42506C8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2AE8DB66-4277-451B-84D2-8768A42506C8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F5C948B4-275B-4BD0-B65D-C8DF394C2226}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F5C948B4-275B-4BD0-B65D-C8DF394C2226}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F5C948B4-275B-4BD0-B65D-C8DF394C2226}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F5C948B4-275B-4BD0-B65D-C8DF394C2226}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
