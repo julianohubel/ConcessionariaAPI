@@ -13,6 +13,12 @@ namespace ConcessionariaAPI.bussiness.Services
     {
         private IFabricanteRepository _repository;
 
+        public FabricanteService(IFabricanteRepository repository)
+        {
+            _repository = repository;
+
+        }
+
         public void ChangeData(string nome, string paisOrigem)
         {
             var fabricante = GetByName(nome);
